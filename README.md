@@ -2,7 +2,7 @@
 prebuilt binaries for libjpeg-turbo v1.4.1
 
 ## Install
-`cp -rf linux-x64/* /usr/local/`
+`cp -rf linux-x64/* /usr/`
 
 ## Usage
 djpeg -bmp test0.jpg > test1.bmp
