@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Optimizes a jpeg in place with decent default lossy compression
+djpeg -bmp $1 > $1.bmp
+cjpeg -quality 80 -progressive $1.bmp > $1
+rm $1.bmp
